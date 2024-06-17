@@ -13,4 +13,11 @@
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="126.0.6478.6100" />
   </ItemGroup>
 
+    <ItemGroup>
+		<!-- Include credentials.txt and specify copy settings -->
+		<Content Include="credentials.txt">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
 </Project>
